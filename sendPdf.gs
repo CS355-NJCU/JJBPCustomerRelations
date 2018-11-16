@@ -22,7 +22,7 @@ function sendPdf() {
     url = url + '&size=letter' + //paper size
         '&portrait=true' + //orientation, false for landscape
         '&fitw=true' + //fit to width, false for actual size
-        '&sheetnames=false&printtitle=false&pagenumbers=false' + //hide optional
+        '&sheetnames=false&printtitle=false&pagenumbers=false' + //hide optional 
         '&gridlines=true' + //false = hide gridlines
         '&fzr=false'; //do not repeat row headers (frozen rows) on each page
     token = ScriptApp.getOAuthToken();
