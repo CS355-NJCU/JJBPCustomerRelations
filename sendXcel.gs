@@ -14,7 +14,7 @@ function sendXcel() {
     //Code to remove all blank rows from sheet
   for (var s in sheets){
   var sheet=sheets[s]
-  var maxRows = sheet.getMaxRows(); 
+  var maxRows = sheet.getMaxRows();
   var lastRow = sheet.getLastRow();
   try{
     if (maxRows-lastRow != 0){sheet.deleteRows(lastRow+1, maxRows-lastRow);}
