@@ -1,9 +1,10 @@
+// This script will run on the 1st of every month from 7 AM - 8 AM GMT.
 function sendXcel() {
   
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   var spreadsheetId = spreadsheet.getId();
   var sheets = spreadsheet.getSheets();
-  var keepSheet = 'November Automated Output';
+  var keepSheet = 'Output';
 
   //Code to hide all the sheets that don't need to be sent.
   for(var i=0; i<sheets.length; i++){ 
@@ -14,7 +15,7 @@ function sendXcel() {
     //Code to remove all blank rows from sheet
   for (var s in sheets){
   var sheet=sheets[s]
-  var maxRows = sheet.getMaxRows();
+  var maxRows = sheet.getMaxRows(); 
   var lastRow = sheet.getLastRow();
   try{
     if (maxRows-lastRow != 0){sheet.deleteRows(lastRow+1, maxRows-lastRow);}
