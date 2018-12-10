@@ -7,7 +7,7 @@ Smitkumar Patel
 
 John Nakar
 
-<b>Smitkumar Patel Responsibility: </b>
+<b><ul>Smitkumar Patel Responsibility: </ul></b>
 
 Inputted Data into the spreadsheet using the forms
 Created the automateoutput.gs
