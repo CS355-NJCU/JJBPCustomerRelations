@@ -4,6 +4,7 @@ Customer Relations
 <b>Team Members: </b>
 
 Smitkumar Patel
+
 John Nakar
 
 <b>Smitkumar Patel Responsibility:</b>
