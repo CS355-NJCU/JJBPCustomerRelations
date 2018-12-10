@@ -1,15 +1,10 @@
+// sends a specific sheeet as a pdf
 function sendPdf() {
 
-  var date = new Date();
-  var mt = date.getMonth();
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var currentD = months[mt] +" Customer Relations Report For Human Resources";  
-  
-  
     var mailTo = 'smit1090@gmail.com',
-        subject = currentD,
+        subject = 'Hello, This is my Report',
         body = 'Please check the attached PDF, it contains the report for Employees Total Sales, Total Return, Total Net Sales, and Total Customer Complaints.',
-        sheetNum = 4, // first sheet(tab) is zero, second sheet is 1, etc..
+        sheetNum = 4,
 
         source = SpreadsheetApp.getActiveSpreadsheet(),
         sheets = source.getSheets(),
@@ -22,7 +17,7 @@ function sendPdf() {
     url = url + '&size=letter' + //paper size
         '&portrait=true' + //orientation, false for landscape
         '&fitw=true' + //fit to width, false for actual size
-        '&sheetnames=false&printtitle=false&pagenumbers=false' + //hide optional 
+        '&sheetnames=false&printtitle=false&pagenumbers=false' + //hide optional
         '&gridlines=true' + //false = hide gridlines
         '&fzr=false'; //do not repeat row headers (frozen rows) on each page
     token = ScriptApp.getOAuthToken();
