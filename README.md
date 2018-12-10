@@ -7,7 +7,7 @@ Smitkumar Patel
 
 John Nakar
 
-<b><ul>Smitkumar Patel Responsibility: </ul></b>
+<b><u>Smitkumar Patel Responsibility: </u></b>
 
 Inputted Data into the spreadsheet using the forms
 Created the automateoutput.gs
@@ -17,7 +17,7 @@ Created the Possible Monthly Input.pdf
 Created the Possible Monthly Output Customer Relations.pdf
 
 
-<b>John Nakar Responsibility: </b>
+<b><u>John Nakar Responsibility: </u></b>
 
 Created the input forms 
 Created the sendPdf.gs
