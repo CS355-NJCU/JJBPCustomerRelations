@@ -5,7 +5,7 @@ Team Members:
 Smitkumar Patel
 John Nakar
 
-Smitkumar Patel Responsibility: 
+<b>Smitkumar Patel Responsibility: </b>
 
 Inputted Data into the spreadsheet using the forms
 Created the automateoutput.gs
