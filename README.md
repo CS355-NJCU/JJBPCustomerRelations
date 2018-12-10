@@ -2,12 +2,11 @@
 Customer Relations
 
 <b>Team Members: </b>
-
 Smitkumar Patel
 
 John Nakar
 
-<b><u>Smitkumar Patel Responsibility: </u></b>
+<b>Smitkumar Patel Responsibility:</b>
 
 Inputted Data into the spreadsheet using the forms
 Created the automateoutput.gs
@@ -17,7 +16,7 @@ Created the Possible Monthly Input.pdf
 Created the Possible Monthly Output Customer Relations.pdf
 
 
-<b><u>John Nakar Responsibility: </u></b>
+<b>John Nakar Responsibility:</b>
 
 Created the input forms 
 Created the sendPdf.gs
