@@ -6,6 +6,7 @@ Smitkumar Patel
 John Nakar
 
 Smitkumar Patel Responsibility: 
+
 Inputted Data into the spreadsheet using the forms
 Created the automateoutput.gs
 Created the sendXcel.gs
@@ -15,6 +16,7 @@ Created the Possible Monthly Output Customer Relations.pdf
 
 
 John Nakar Responsibility:
+
 Created the input forms 
 Created the sendPdf.gs
 Created the Problem Definiton Customer Relation (Baby Powder).pdf
