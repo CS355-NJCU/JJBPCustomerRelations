@@ -1,4 +1,5 @@
 // This script will run on the 1st of every month from 7 AM - 8 AM GMT.
+//It will get a sheet with the name output and send it as a pdf to the attached email address var mailTo in this code.
 function sendXcel() {
   
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
