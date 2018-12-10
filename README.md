@@ -1,7 +1,7 @@
 # JJBPCustomerRelations
 Customer Relations
 
-Team Members: 
+</b>Team Members: </b>
 Smitkumar Patel
 John Nakar
 
@@ -15,7 +15,7 @@ Created the Possible Monthly Input.pdf
 Created the Possible Monthly Output Customer Relations.pdf
 
 
-John Nakar Responsibility:
+<b>John Nakar Responsibility: </b>
 
 Created the input forms 
 Created the sendPdf.gs
