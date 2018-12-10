@@ -4,7 +4,7 @@ function automateOutput() {
   var date = new Date();
   var mt = date.getMonth();
   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var currentD = months[mt-2] +" Report For Human Resources";
+  var currentD = months[mt-1] +" Report For Human Resources";
   var monthReport=mt-1;
   
   //Deletes the current Output Sheet
@@ -84,6 +84,6 @@ function automateOutput() {
 function prevMonth() {
   var date = new Date();
   var mt = date.getMonth();
-  var monthReport=mt-1;
+  var monthReport=mt;
   return monthReport;
 }
